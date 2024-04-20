@@ -23,7 +23,7 @@ export default function StarRating({starCount=5}){
 
     function handleMouseClick(element){
         // 클릭한 별에다가 setScore()
-        console.log(element);
+        // console.log(element);
         setScore(element);      // set : 비동기
     }
     
