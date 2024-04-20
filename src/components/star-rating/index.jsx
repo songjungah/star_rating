@@ -23,14 +23,14 @@ export default function StarRating({starCount=5}){
 
     function handleMouseClick(element){
         // 클릭한 별에다가 setScore()
-        // console.log(element);
+        console.log(element);
         setScore(element);      // set : 비동기
     }
     
     function handleMouseMove(element){
         // 마우스 들어간 별에다가 setHover()
         // 어느 별 위에 마우스가 올라가있는지? : 받아와야한다 매개변수로
-        // console.log(element);
+        console.log(element);
         setHover(element);
     }
     
